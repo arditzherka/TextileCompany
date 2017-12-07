@@ -157,7 +157,11 @@ header {
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
+<<<<<<< HEAD
 	background-attachment: fixed;
+=======
+	background-attachment:fixed;
+>>>>>>> 8fdda9503c7d736bd61a387ecb3778f6e73faf9e
 	background-position: 50% 85%;
 	height: 100vh;
 }
@@ -418,6 +422,7 @@ footer p {
 .js--wp-1.animated {
 	opacity: 1;
 }
+
 .map {
 	width: 100%;
 	height: 500px;
@@ -451,3 +456,4 @@ footer p {
 .city-feature {
     margin-bottom: 5px;
 }
+
