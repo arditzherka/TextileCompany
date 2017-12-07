@@ -21,7 +21,7 @@ $('.js--scroll-to-features').click(function(){
 $('.js--scroll-to-contact').click(function(){
 	$('html, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1000);
 });
-});
+
 
  $(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {
@@ -80,4 +80,22 @@ $('.js--scroll-to-contact').click(function(){
             icon.addClass('ion-navicon-round');
             icon.removeClass('ion-close-round');
         }
+    });
+
+     var map = new GMaps({
+      div: '.map',
+      lat: 42.3690143,
+      lng: 20.465,
+      zoom: 16 /* Default: 15 */
+    });
+
+    map.addMarker({
+      lat: 42.3690143,
+      lng: 20.46,
+      title: 'Lima',
+      infoWindow: {
+          content: '<p>Our San Franciso HQ</p>'
+      }
+    });
+
     });
